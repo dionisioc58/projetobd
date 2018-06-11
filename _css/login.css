@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body, h1,h2, h3, h4, h5, h6, p{
+    font-family: "Lato", sans-serif;
+}
+
+body,  html {
+    height: 100%;
+    color: #777;    
+    line-height: 1.8;
+}
+
+p {
+    text-align:justify; 
+    text-indent: 50px; 
+}
+
+.fundo1 {
+	background-image: url("../_imagens/fundo1");
+    min-height: 90%;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    padding-top: 100px;
+}

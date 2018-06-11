@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body, h1,h2, h3, h4, h5, h6, p{
+    font-family: "Lato", sans-serif;
+}
+
+body,  html {
+    height: 100%;
+    color: #777;    
+    line-height: 1.8;
+}
+
+p {
+    text-align:justify; 
+    text-indent: 50px; 
+}
+
+.bgimg1,.bgimg2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg1 {
+    background-image: url("../_imagens/fundo1");
+    min-height: 80%;
+    max-width: 100%;
+}
+
+.mySlides {
+    display:none;
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:0;
+}
+/* Second image (Portfolio) */
+.bgimg2 {
+    background-image: url("../_imagens/bgimg2.jpg");
+    min-height: 90%;
+    max-width: 100%;
+}
+
+.w3-menu{
+    color: white;
+    padding-top: 26px;
+    padding-left: 750px;
+    font-size: 1.2vw;
+
+}
+
+.w3-log{
+    padding-right: 5%;
+}
+
+.w3-pesq{
+    padding-right: 1%;
+    color: white;
+}
+
+
+.w3-wide {  
+    letter-spacing: 10px;
+}
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
